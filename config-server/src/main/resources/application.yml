@@ -1,0 +1,11 @@
+server:
+  port: 8088
+  
+spring:
+  profiles:
+    active: native
+
+eureka:
+  instance:
+    prefer-ip-address: true
+
